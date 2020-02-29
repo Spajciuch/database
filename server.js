@@ -66,6 +66,6 @@ app.get('/actions/:action/:file/:data', function (req, res) {
     }
 })
 
-app.listen(3000, function () {
-    console.log(chalk.blue("[server] Wystartowano serwer na porcie 3000"))
+app.listen(80, function () {
+    console.log(chalk.blue("[server] Wystartowano serwer na porcie 80"))
 });
